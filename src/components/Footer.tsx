@@ -16,7 +16,7 @@ export function Footer() {
           
           <div className="border-t border-background/20 pt-6">
             <p className="text-background/50 text-sm">
-              © 2024 Elantris. Made with 🌱 for growing human connection.
+              © 2025 Elantris. Made with 🌱 for growing human connection.
             </p>
           </div>
         </div>
