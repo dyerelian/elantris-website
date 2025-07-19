@@ -1,5 +1,6 @@
 import { Smartphone, Sprout, Calendar, TreePine } from "lucide-react";
 
+// Force cache refresh - using Sprout instead of Seedling
 export function HowItWorks() {
   const steps = [
     {
