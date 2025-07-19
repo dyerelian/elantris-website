@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { HeroButton } from "@/components/ui/hero-button";
 import { useToast } from "@/hooks/use-toast";
-import heroImage from "@/assets/hero-image.jpg";
+import heroImage from "@/assets/hero-nature.jpg";
 
 export function Hero() {
   const [email, setEmail] = useState("");
@@ -46,14 +46,14 @@ export function Hero() {
       <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-            Reconnect with the
+            Cultivate meaningful
             <span className="block bg-gradient-to-r from-accent to-primary-glow bg-clip-text text-transparent">
-              people who matter
+              relationships
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">
-            In a world that's become digitally disconnected, Elantris helps you rebuild meaningful relationships through simple daily reminders and heartfelt outreach.
+            Like tending a garden, relationships grow through daily care and attention. Elantris helps you nurture the connections that matter most.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
@@ -72,7 +72,7 @@ export function Hero() {
           </div>
           
           <div className="text-white/70 text-sm">
-            🌟 Be among the first to fight digital loneliness
+            🌱 Start growing stronger connections today
           </div>
         </div>
       </div>

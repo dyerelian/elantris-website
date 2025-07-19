@@ -71,11 +71,11 @@ export default {
 			},
 			backgroundImage: {
 				'gradient-primary': 'var(--gradient-primary)',
-				'gradient-warm': 'var(--gradient-warm)',
+				'gradient-nature': 'var(--gradient-nature)',
 				'gradient-hero': 'var(--gradient-hero)'
 			},
 			boxShadow: {
-				'warm': 'var(--shadow-warm)',
+				'nature': 'var(--shadow-nature)',
 				'glow': 'var(--shadow-glow)'
 			},
 			transitionTimingFunction: {
